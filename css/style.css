@@ -1,0 +1,46 @@
+/*Обнуление*/
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+/*Стили для демонстрации*/
+html,
+body {
+	height: 100%;
+	background-color: #333;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	font-size: 25px;
+}
+
+.wrapper {
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Slider */
+
+.slider {
+	width: 1110px;
+}
+
+.slider__item {
+	width: 335px;
+	height: 402px;
+	border-radius: 35px;
+	object-fit: cover;
+}
+
+.slider .center .slider__item {
+	width: 380px;
+	height: 456px;
+}
